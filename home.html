@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<main class="flex justify-center ">
+     <div class="mockup-phone bg-slate-300">
+  <div class="mockup-phone-camera"></div>
+  <div class="mockup-phone-display text-white grid place-content-center">
+
+  <!-- available balance start -->
+   <div class="flex justify-center" >
+    <div class="stats shadow ">
+  <div class="stat">
+    
+    <div class="stat-value">9400</div>
+    <div class="stat-desc text-black">Available Balance</div>
+  </div>
+</div>
+   </div>
+   <!-- available balance end -->
+   <!-- divider -->
+     <div class="divider"  ></div>
+     <!-- user action button start -->
+      <div>
+        <button class="btn btn-lg">Add Money</button>
+        <button class="btn btn-lg">Cash Out</button>
+      </div>
+      <!-- user action button end -->
+      <div class="divider"></div>
+      <!-- Add money form start -->
+        <div class="card  w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label text-black">Amount</label>
+          <input id="add-money" type="text" class="input text-black" placeholder="Amount" />
+          <label class="label text-black">Pin</label>
+          <input id="input-pin-number"  type="password" class="input text-black" placeholder="Pin Number" />
+          
+          <button  id="btn-add-money" class="btn btn-neutral mt-4">Add Money</button>
+        </fieldset>
+      </div>
+    </div>
+      <!-- Add money form end -->
+
+
+  </div>
+</div>  
+</main>  
+<script src="js/home.js"></script>
+</body>
+</html>
